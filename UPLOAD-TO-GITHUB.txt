@@ -1,0 +1,9 @@
+UPLOAD THESE FILES/FOLDERS DIRECTLY TO THE ROOT OF YOUR GITHUB REPOSITORY:
+
+index.html
+404.html
+README.md
+.nojekyll
+assets/   <-- keep this folder intact
+
+Do not upload the contents of assets/ separately into the repository root.
