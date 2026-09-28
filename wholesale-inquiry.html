@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wholesale buyer inquiry for Bargain Wholesale. Tell us about your business, product categories and purchasing needs.">
+  <meta name="theme-color" content="#0d2740">
+  <title>Wholesale Inquiry | Bargain Wholesale</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="inquiry-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p><strong>Wholesale since 1976</strong><span>Built for dollar stores, supermarkets, convenience stores, distributors and nonprofits.</span></p>
+      <a href="tel:+18182067140">+1 818 206 7140</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Bargain Wholesale home">
+        <img src="bargain-wholesale-logo.png" alt="Bargain Wholesale">
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="nav" aria-label="Primary navigation">
+        <a href="index.html#categories">Categories</a>
+        <a href="index.html#why-us">Why Bargain</a>
+        <a href="index.html#operations">Operations</a>
+        <a href="index.html#locations">Locations</a>
+        <a class="nav-cta active" href="wholesale-inquiry.html">Wholesale Inquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="inquiry-hero">
+      <div class="container inquiry-hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">WHOLESALE BUYER INQUIRY</span>
+          <h1>Tell us what you need to keep your shelves moving.</h1>
+          <p>Share a few details about your business, the merchandise you buy and your purchasing needs. This helps the wholesale team understand your account before follow-up.</p>
+        </div>
+        <div class="inquiry-hero-mark reveal delay-1" aria-hidden="true">
+          <img src="bargain-wholesale-icon.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="inquiry-section">
+      <div class="container inquiry-layout">
+        <aside class="inquiry-sidebar reveal">
+          <span class="side-kicker">BUYER INFORMATION</span>
+          <h2>Wholesale purchasing made straightforward.</h2>
+          <p>Use the form to organize your request, then contact the wholesale team using the information below.</p>
+          <div class="contact-panel">
+            <div class="contact-row"><span>Phone</span><a href="tel:+18182067140">+1 818 206 7140</a></div>
+            <div class="contact-row"><span>Headquarters</span><p>4000 Union Pacific Ave<br>Commerce, CA 90023</p></div>
+          </div>
+          <div class="buyer-points">
+            <div><span>01</span><p>Retailers, distributors, wholesalers and nonprofit buyers</p></div>
+            <div><span>02</span><p>Grocery, household, health &amp; beauty, seasonal and general goods</p></div>
+            <div><span>03</span><p>Bulk purchasing and pickup-focused wholesale support</p></div>
+          </div>
+        </aside>
+
+        <div class="form-card reveal delay-1">
+          <div class="form-card-head">
+            <span class="form-step">Wholesale request</span>
+            <h2>Business details</h2>
+            <p>Fields marked with * are required.</p>
+          </div>
+
+          <form id="wholesale-inquiry-form" class="wholesale-form" novalidate>
+            <div class="form-grid two-col">
+              <label class="field"><span>First name *</span><input type="text" name="firstName" autocomplete="given-name" required></label>
+              <label class="field"><span>Last name *</span><input type="text" name="lastName" autocomplete="family-name" required></label>
+            </div>
+            <div class="form-grid two-col">
+              <label class="field"><span>Company name *</span><input type="text" name="company" autocomplete="organization" required></label>
+              <label class="field"><span>Business type *</span>
+                <select name="businessType" required>
+                  <option value="">Select business type</option>
+                  <option>Dollar / discount store</option><option>Supermarket / grocery</option><option>Convenience store</option><option>Wholesaler / distributor</option><option>Nonprofit / organization</option><option>Online retailer</option><option>Other</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-grid two-col">
+              <label class="field"><span>Business email *</span><input type="email" name="email" autocomplete="email" inputmode="email" required></label>
+              <label class="field"><span>Phone number *</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required></label>
+            </div>
+            <div class="form-grid two-col">
+              <label class="field"><span>City *</span><input type="text" name="city" autocomplete="address-level2" required></label>
+              <label class="field"><span>State / region *</span><input type="text" name="state" autocomplete="address-level1" required></label>
+            </div>
+
+            <fieldset class="category-select">
+              <legend>Categories you’re interested in</legend>
+              <div class="check-grid">
+                <label><input type="checkbox" name="category" value="Grocery & Beverages"><span>Grocery &amp; Beverages</span></label>
+                <label><input type="checkbox" name="category" value="Health & Beauty"><span>Health &amp; Beauty</span></label>
+                <label><input type="checkbox" name="category" value="Household & Cleaning"><span>Household &amp; Cleaning</span></label>
+                <label><input type="checkbox" name="category" value="Kitchen & Housewares"><span>Kitchen &amp; Housewares</span></label>
+                <label><input type="checkbox" name="category" value="Toys, Party & Seasonal"><span>Toys, Party &amp; Seasonal</span></label>
+                <label><input type="checkbox" name="category" value="Hardware & General Goods"><span>Hardware &amp; General Goods</span></label>
+              </div>
+            </fieldset>
+
+            <div class="form-grid two-col">
+              <label class="field"><span>Typical order size</span>
+                <select name="orderSize"><option value="">Select an estimated range</option><option>Under $2,500</option><option>$2,500–$10,000</option><option>$10,000–$25,000</option><option>$25,000–$50,000</option><option>$50,000+</option></select>
+              </label>
+              <label class="field"><span>Preferred fulfillment</span>
+                <select name="fulfillment"><option value="">Select preference</option><option>Los Angeles showroom / pickup</option><option>Houston distribution</option><option>Freight / delivery information</option><option>Not sure yet</option></select>
+              </label>
+            </div>
+
+            <label class="field"><span>What are you looking to buy?</span><textarea name="message" rows="5" placeholder="Tell us about products, quantities, timing, recurring needs or any questions."></textarea></label>
+
+            <label class="consent"><input type="checkbox" required><span>I confirm that the information above is for a legitimate wholesale business inquiry. *</span></label>
+
+            <button class="btn btn-dark form-submit" type="submit">Complete Wholesale Request <span>→</span></button>
+            <p class="form-note">This GitHub Pages version does not transmit personal information to a server. After completion, use the wholesale phone number shown in the confirmation to continue.</p>
+          </form>
+
+          <div id="form-success" class="form-success" role="status" aria-live="polite" hidden>
+            <div class="success-icon">✓</div>
+            <div>
+              <strong>Your wholesale request is ready.</strong>
+              <p>Your information was validated in the browser. To continue with the wholesale team, call <a href="tel:+18182067140">+1 818 206 7140</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo-wrap"><img class="footer-logo" src="bargain-wholesale-logo.png" alt="Bargain Wholesale"></div>
+        <p>Wholesale groceries, everyday essentials and general merchandise for value-focused retailers and distributors.</p>
+      </div>
+      <div><h3>Navigate</h3><a href="index.html#categories">Categories</a><a href="index.html#why-us">Why Bargain</a><a href="index.html#operations">Operations</a><a href="index.html#locations">Locations</a></div>
+      <div><h3>Wholesale</h3><a href="tel:+18182067140">+1 818 206 7140</a><span>4000 Union Pacific Ave</span><span>Commerce, CA 90023</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Bargain Wholesale. All rights reserved.</span><span>Established 1976</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

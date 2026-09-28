@@ -1,10 +1,16 @@
-BARGAIN WHOLESALE — GITHUB UPLOAD
+BARGAIN WHOLESALE — FINAL GITHUB UPLOAD
 
-This version is intentionally FLAT: every file belongs in the ROOT of your GitHub repository.
-There is NO assets folder.
+1. Extract this ZIP on your computer.
+2. Upload EVERY file inside the extracted folder directly to the ROOT of the GitHub repository.
+3. Do not create an assets folder. This package is intentionally flat for your current GitHub setup.
+4. Keep .nojekyll in the repository.
+5. After GitHub Pages deploys, open the site and press Ctrl + F5 once to refresh cached CSS/assets.
 
-1. Delete the old website files from the repository.
-2. Extract this ZIP on your computer.
-3. Upload ALL files from this ZIP directly to the repository root.
-4. Make sure index.html, style.css, script.js, logo.svg and the other files all appear at the same level.
-5. Wait 1-2 minutes for GitHub Pages to rebuild, then hard-refresh with Ctrl+F5.
+New page:
+wholesale-inquiry.html
+
+Main logo:
+bargain-wholesale-logo.png
+
+Email-signature logo:
+bargain-wholesale-logo-email.png

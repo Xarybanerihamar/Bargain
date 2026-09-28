@@ -1,23 +1,17 @@
 # Bargain Wholesale — GitHub Pages Website
 
-Static, responsive website designed for GitHub Pages.
+Final flat-structure website package for GitHub Pages.
 
-## Upload to GitHub
-1. Create or open your GitHub repository.
-2. Upload everything inside this folder to the repository root.
-3. In **Settings → Pages**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)` folder.
-5. Save, then open the GitHub Pages URL after deployment completes.
+## Pages
+- `index.html` — homepage
+- `wholesale-inquiry.html` — wholesale buyer inquiry form
+- `404.html` — custom not-found page
 
-## Custom domain
-No `CNAME` file is included on purpose, so GitHub will not automatically attach a custom domain. Connect a domain only after you have checked the GitHub-hosted site.
+## Brand assets
+- `bargain-wholesale-logo.png` — website master logo
+- `bargain-wholesale-logo-email.png` — transparent email-signature logo
+- `bargain-wholesale-icon.png` — square brand icon
+- `favicon.png` — browser icon
 
-## Important note about photography
-The current build loads several royalty-free Unsplash photos by URL. If you want the website to be completely self-contained, replace those URLs with your own warehouse/showroom photography inside `assets/images/` and update the three image references in `index.html` / `assets/style.css`.
-
-## Contact data currently used
-- Phone: +1 818 206 7140
-- Headquarters: 4000 Union Pacific Ave, Commerce, CA 90023
-- Houston distribution center: city-level reference only
-
-No email address was added because only the email domain was provided, not a specific mailbox.
+## Important form note
+GitHub Pages is static hosting, so this package intentionally does **not** transmit form data to a server. The form validates the user's entries locally and directs the buyer to the wholesale phone number. To enable real web submissions later, connect the form to a verified sales inbox or approved form endpoint.
