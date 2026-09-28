@@ -1,0 +1,10 @@
+BARGAIN WHOLESALE — GITHUB UPLOAD
+
+This version is intentionally FLAT: every file belongs in the ROOT of your GitHub repository.
+There is NO assets folder.
+
+1. Delete the old website files from the repository.
+2. Extract this ZIP on your computer.
+3. Upload ALL files from this ZIP directly to the repository root.
+4. Make sure index.html, style.css, script.js, logo.svg and the other files all appear at the same level.
+5. Wait 1-2 minutes for GitHub Pages to rebuild, then hard-refresh with Ctrl+F5.
